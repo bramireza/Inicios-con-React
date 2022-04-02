@@ -4,6 +4,8 @@ import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondiciona';
+import Boton from './components/Boton';
+import CicloVida from './components/CicloVida';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           </a>
         </section>
         <section>
+          <Boton></Boton>
+          <CicloVida></CicloVida>
           <Componente msg="hola soy brayian Ramirez"></Componente>
           <hr/>
           <Propiedades></Propiedades>
