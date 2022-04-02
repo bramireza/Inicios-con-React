@@ -6,6 +6,7 @@ import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondiciona';
 import Boton from './components/Boton';
 import CicloVida from './components/CicloVida';
+import ContadorHooks from './components/ContadorHooks';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           </a>
         </section>
         <section>
+          <ContadorHooks></ContadorHooks>
+          <hr/>
           <Boton></Boton>
           <CicloVida></CicloVida>
           <Componente msg="hola soy brayian Ramirez"></Componente>
