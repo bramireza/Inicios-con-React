@@ -6,6 +6,7 @@ export default function ContadorHooks (){
     const restar = () => setContador(contador-1);
     const alcuadrado = () => setContador(contador*contador);
     const iniciar = () => setContador (0);
+    
      return(
          <>
             <h2>Hooks CONTADOR</h2>
@@ -16,6 +17,7 @@ export default function ContadorHooks (){
                 <button onClick={alcuadrado}>^2</button>
                 <button onClick={iniciar}>0</button>
             </nav>
+            
          </>
      );
  }
