@@ -7,6 +7,8 @@ import RenderizadoCondicional from './components/RenderizadoCondiciona';
 import Boton from './components/Boton';
 import CicloVida from './components/CicloVida';
 import ContadorHooks from './components/ContadorHooks';
+import ScrollHooks from './components/ScrollHooks';
+import RelojHooks from './components/RelojHooks';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           </a>
         </section>
         <section>
+          <RelojHooks/>
+          <ScrollHooks></ScrollHooks>
           <ContadorHooks></ContadorHooks>
           <hr/>
           <Boton></Boton>
